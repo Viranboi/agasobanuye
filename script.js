@@ -55,26 +55,7 @@ const movies = [
  
     { title: "NIGHT CRAWLER BY ROCKY", link: "https://cybervynx.com/mq06q0nu6lgy", image: "https://akumachi.com/mq06q0nu6lgy_t.jpg" },
     
-    {title: "DEVA A BY ROCKY",
-  link: "https://cybervynx.com/csz1xety5xyh",
-  image: "https://akumachi.com/csz1xety5xyh_t.jpg"
-};
-
-// Create the iframe element
-const iframe = document.createElement('iframe');
-
-// Set the attributes
-iframe.src = "https://cybervynx.com/e/2fuvkv6qdp8j";
-iframe.frameBorder = "0";
-iframe.marginWidth = "0";
-iframe.marginHeight = "0";
-iframe.scrolling = "no";
-iframe.width = "640";
-iframe.height = "360";
-iframe.allowFullscreen = true;
-
-// Optionally, you can append it to an existing element in the DOM
-document.body.appendChild(iframe);
+ 
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
