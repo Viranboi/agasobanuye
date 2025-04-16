@@ -98,35 +98,31 @@ const movies = [
     // Add 1000 more movies here...
 ];
 
-// Function to display movies on the page
+const movieList = document.getElementById("movie-list");
+const searchBar = document.getElementById("search-bar");
+
+// Function to display movies
 function displayMovies(filteredMovies) {
-    const movieList = document.getElementById('movie-list');
-    movieList.innerHTML = '';
-    
+    movieList.innerHTML = "";
     filteredMovies.forEach(movie => {
-        const movieItem = document.createElement('div');
-        movieItem.classList.add('movie-item');
-        
+        const movieItem = document.createElement("div");
+        movieItem.classList.add("movie-item");
         movieItem.innerHTML = `
             <a href="${movie.link}" target="_blank">
-                <img src="${movie.image}" alt="${movie.title}">
+                <img src="${movie.image}" alt="${movie.title}" />
                 <p>${movie.title}</p>
             </a>
         `;
-        
         movieList.appendChild(movieItem);
     });
 }
 
-// Function to filter movies based on search
-function searchMovies() {
-    const searchQuery = document.getElementById('search-bar').value.toLowerCase();
-    const filteredMovies = movies.filter(movie => movie.title.toLowerCase().includes(searchQuery));
-    displayMovies(filteredMovies);
-}
-
-// Initial display of all movies
+// Display all on load
 displayMovies(movies);
 
-// Add event listener for the search bar
-document.getElementById('search-bar').addEventListener('input', searchMovies);
+// Filter as you type
+searchBar.addEventListener("input", () => {
+    const keyword = searchBar.value.toLowerCase();
+    const filtered = movies.filter(movie => movie.title.toLowerCase().includes(keyword));
+    displayMovies(filtered);
+});
