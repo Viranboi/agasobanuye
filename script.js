@@ -56,7 +56,7 @@ const movies = [
     { title: "NIGHT CRAWLER BY ROCKY", link: "https://cybervynx.com/mq06q0nu6lgy", image: "https://akumachi.com/mq06q0nu6lgy_t.jpg" },
     
  
-    { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
+    { title: "AGASOBANUYE SWO SWO SWO 1234", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
