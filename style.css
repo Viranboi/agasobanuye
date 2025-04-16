@@ -10,6 +10,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #3a4e6a, #1f2a44);
     color: #f4f4f9;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 /* Header */
@@ -24,6 +26,11 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #34495e;
 }
 
 header .logo h1 {
@@ -32,6 +39,11 @@ header .logo h1 {
     letter-spacing: 1px;
     color: #ff6f61;
     text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header .logo h1:hover {
+    color: #f9c74f;
 }
 
 header .contact-info {
@@ -136,6 +148,11 @@ footer {
     bottom: 0;
     width: 100%;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #34495e;
 }
 
 /* Animations */
