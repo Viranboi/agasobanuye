@@ -55,7 +55,7 @@ const movies = [
  
     { title: "NIGHT CRAWLER BY ROCKY", link: "https://cybervynx.com/mq06q0nu6lgy", image: "https://akumachi.com/mq06q0nu6lgy_t.jpg" },
     { title: "ROCKY NA JUNIOR GITI NA YANGA BAKOZE AGASOBANUYE", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
-    title: "DEVA A BY ROCKY",
+    {title: "DEVA A BY ROCKY",
   link: "https://cybervynx.com/csz1xety5xyh",
   image: "https://akumachi.com/csz1xety5xyh_t.jpg"
 };
