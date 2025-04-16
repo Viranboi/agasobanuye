@@ -53,7 +53,7 @@ const movies = [
     { title: "MARTIN C BY FEY", link: "https://cybervynx.com/2uy9oe9knib1", image: "https://akumachi.com/2uy9oe9knib1_t.jpg" },
     { title: "MARTIN D BY FEY", link: "https://cybervynx.com/vn7tp2zr2c2r", image: "https://akumachi.com/vn7tp2zr2c2r_t.jpg" },
  
-    { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
+    { title: "NIGHT CRAWLER BY ROCKY", link: "https://cybervynx.com/mq06q0nu6lgy", image: "https://akumachi.com/mq06q0nu6lgy_t.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
     { title: "Movie 2", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
