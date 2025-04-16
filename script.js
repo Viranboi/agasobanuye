@@ -54,7 +54,7 @@ const movies = [
     { title: "MARTIN D BY FEY", link: "https://cybervynx.com/vn7tp2zr2c2r", image: "https://akumachi.com/vn7tp2zr2c2r_t.jpg" },
  
     { title: "NIGHT CRAWLER BY ROCKY", link: "https://cybervynx.com/mq06q0nu6lgy", image: "https://akumachi.com/mq06q0nu6lgy_t.jpg" },
-    { title: "ROCKY NA JUNIOR GITI NA YANGA BAKOZE AGASOBANUYE", link: "https://example.com/movie2", image: "https://example.com/image2.jpg" },
+    
     {title: "DEVA A BY ROCKY",
   link: "https://cybervynx.com/csz1xety5xyh",
   image: "https://akumachi.com/csz1xety5xyh_t.jpg"
